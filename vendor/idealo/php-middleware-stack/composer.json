@@ -1,0 +1,44 @@
+{
+  "name": "idealo/php-middleware-stack",
+  "description": "Implementation of HTTP Middleware PSR-15 specification",
+  "keywords": [
+    "stack",
+    "psr",
+    "psr-7",
+    "psr-15",
+    "http",
+    "middleware",
+    "request",
+    "response"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Vsevolod Dolgopolov",
+      "email": "vsevolod.dolgopolov@idealo.de"
+    },
+    {
+      "name": "Dirk Adler",
+      "email": "dirk.adler@idealo.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "psr/http-message": "^1.0",
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-server-handler": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Idealo\\Middleware\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Idealo\\Middleware\\Tests\\": "tests/"
+    }
+  }
+}

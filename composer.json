@@ -1,0 +1,30 @@
+{
+    "name": "minhhiep/quan_ly_khach_san",
+    "description": "quan_ly_khach_san",
+    "authors": [
+        {
+            "name": "Minh Hiệp",
+            "email": "chuminhhiep0211@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.62",
+        "illuminate/events": "^8.62",
+        "jenssegers/blade": "^1.4",
+        "idealo/php-middleware-stack": "^2.0",
+        "pecee/simple-router": "4.3.7.2",
+        "rakit/validation": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Middleware\\" : "app/middleware/",
+            "Controllers\\" : "app/controllers/",
+            "Models\\" : "app/models/",
+            "Core\\" : "app/core/",
+            "Handlers\\": "app/handlers/",
+            "Validate\\": "app/validate/"
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+version: "2"
+plugins:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - php
+  fixme:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      standard: "PSR2"
+  sonar-php:
+    enabled: true
+exclude_patterns:
+- tests/
