@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bebfd9f-15ee-46ac-ac99-3aa474d8fcc7" name="Default Changelist" comment="first commit" />
+    <list default="true" id="1bebfd9f-15ee-46ac-ac99-3aa474d8fcc7" name="Default Changelist" comment="delete tetsgit.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testgit.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +150,7 @@
       <workItem from="1634008864002" duration="33000" />
       <workItem from="1634373720538" duration="46000" />
       <workItem from="1634740931025" duration="738000" />
+      <workItem from="1634787336153" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1634741016432</created>
