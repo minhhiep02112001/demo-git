@@ -1,3 +1,5 @@
-Mình là chu minh hiệp
-hello chu minh hiệp
-xin chào bạn nhé
+<?php
+    a=1;
+    b=2;
+
+?>
